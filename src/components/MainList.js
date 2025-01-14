@@ -1,10 +1,11 @@
 import { AddRounded, PlayArrow, ThumbDownAltRounded, ThumbUpAltRounded } from '@mui/icons-material'
 import React, { useState } from 'react'
-import trailer from "https://res.cloudinary.com/dswehdo2v/video/upload/v1736824649/WhatsApp_Video_2025-01-14_at_05.10.55_84c3cd94_ryeqw8.mp4"
 
 
 const MainList = ({index,movie}) => {
     const [isHovered,setIsHovered]=useState(false)
+    const trailer = "https://res.cloudinary.com/dswehdo2v/video/upload/v1736824649/WhatsApp_Video_2025-01-14_at_05.10.55_84c3cd94_ryeqw8.mp4"
+
 
   return ( 
         <>
